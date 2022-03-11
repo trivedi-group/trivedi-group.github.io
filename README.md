@@ -1,4 +1,4 @@
-# trivedi-group.io
+# Background
 
 # Biography
 
