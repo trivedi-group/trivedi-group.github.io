@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# About Trivedi group
 
-You can use the [editor on GitHub](https://github.com/trivedi-group/trivedi-group.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Our research interests are applications of chemometrics in clinical metabolomics and development of wearables for disease diagnostics. The group is currently working on rapid diagnosis of tuberculosis. We aim to develop non-invasive wearable sampling devices; smell-led metabolomics analysis pipelines and chemometrics tools for biomarker discovery. We currently collaborate with cross-continental clinical research teams in countries such as USA, Africa and India. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Within the University the group collaborates for diagnosis of Parkinson's disease and for creating a Chemometrics hub - stats for all, within MIB. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# About Drupad Trivedi
 
-```markdown
-Syntax highlighted code block
+He received my BSc (Hons) in Biomedical Sciences and my PhD in biomarker discovery using metabolomics from Middlesex Univeristy.  He briefly trained at The London School of Tropical Medicine at post doctoral fellow, then worked at The University of Manchester with Prof Royston Goodacre and Prof Perdita Barran before starting independent research at UoM.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/trivedi-group/trivedi-group.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Get in touch
+Twitter - @drupad_t
