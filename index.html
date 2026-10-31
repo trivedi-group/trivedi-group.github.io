@@ -1,13 +1,103 @@
-# About Trivedi group
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trivedi Group</title>
+<meta name="description" content="The Trivedi Group, University of Manchester. Chemometrics in clinical metabolomics and wearable devices for disease diagnostics.">
+<style>
+:root{--bg:#faf8f3;--card:#ffffff;--ink:#1b2438;--mute:#56627a;--gold:#b8791a;--line:#e6dfd0;--soft:#f3eee2}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1a2c;--card:#17243a;--ink:#f1ede3;--mute:#a9b4c6;--gold:#e6b85c;--line:#2b3b57;--soft:#1c2b44}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65;font-size:17px}
+a{color:var(--gold);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:3px}
+header,main,footer{width:100%;max-width:860px;margin:0 auto;padding:0 20px}
+header{padding-top:56px;padding-bottom:12px}
+h1{font-size:clamp(34px,6vw,50px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em}
+.tag{font-size:clamp(17px,2.6vw,20px);color:var(--mute);max-width:36em;margin:0;text-wrap:balance}
+nav{display:flex;flex-wrap:wrap;gap:6px 22px;margin:26px 0 0;padding:14px 0 0;border-top:1px solid var(--line)}
+nav a{text-decoration:none;font-size:15px;color:var(--mute)}
+nav a:hover{color:var(--gold)}
+section{margin:44px 0}
+h2{font-size:24px;margin:0 0 14px;letter-spacing:-.01em}
+p{margin:0 0 14px;text-align:left;text-wrap:pretty}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:16px 0}
+.card h3{margin:0 0 8px;font-size:19px}
+.card p:last-child{margin-bottom:0}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.btn{display:inline-block;padding:9px 16px;border-radius:999px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font-size:15px;font-weight:700}
+.btn:hover{background:var(--gold);color:var(--bg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:16px 0}
+.grid .card{margin:0;background:var(--soft)}
+.grid h3{font-size:16px}
+.grid p{font-size:15px;color:var(--mute)}
+footer{padding-top:18px;padding-bottom:48px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Trivedi Group</h1>
+  <p class="tag">Chemometrics in clinical metabolomics, and wearable devices for disease diagnostics.</p>
+  <nav aria-label="Sections">
+    <a href="#research">Research</a>
+    <a href="#software">Software</a>
+    <a href="#teaching">Teaching resources</a>
+    <a href="#people">People</a>
+    <a href="#contact">Get in touch</a>
+  </nav>
+</header>
+<main>
+  <section id="research">
+    <h2>Research</h2>
+    <p>Our research interests are applications of chemometrics in clinical metabolomics and the development of wearables for disease diagnostics. The group is currently working on rapid diagnosis of tuberculosis.</p>
+    <div class="grid">
+      <div class="card"><h3>Wearable sampling</h3><p>Non-invasive wearable sampling devices for disease diagnostics.</p></div>
+      <div class="card"><h3>Smell-led metabolomics</h3><p>Metabolomics analysis pipelines led by the volatile molecules that carry a smell.</p></div>
+      <div class="card"><h3>Chemometrics tools</h3><p>Tools for biomarker discovery in clinical metabolomics data.</p></div>
+    </div>
+    <p>We collaborate with cross-continental clinical research teams in countries such as the USA, in Africa and in India. Within the University of Manchester, the group collaborates on the diagnosis of Parkinson's disease and on creating a chemometrics hub, statistics for all, within the Manchester Institute of Biotechnology.</p>
+  </section>
 
-Our research interests are applications of chemometrics in clinical metabolomics and development of wearables for disease diagnostics. The group is currently working on rapid diagnosis of tuberculosis. We aim to develop non-invasive wearable sampling devices; smell-led metabolomics analysis pipelines and chemometrics tools for biomarker discovery. We currently collaborate with cross-continental clinical research teams in countries such as USA, Africa and India. 
+  <section id="software">
+    <h2>Software</h2>
+    <div class="card">
+      <h3>Tattvā</h3>
+      <p>A desktop toolkit for LC-MS and GC-MS metabolomics. It runs on your own computer, so your data stay there. Versions are available for macOS, Windows and Linux. A licence file from the Trivedi Group is needed before it will run.</p>
+      <div class="btns">
+        <a class="btn" href="https://github.com/trivedi-group/tattva-downloads/releases">Download Tattvā</a>
+        <a class="btn" href="https://github.com/trivedi-group/tattva-downloads#readme">Install guide</a>
+      </div>
+    </div>
+  </section>
 
-Within the University the group collaborates for diagnosis of Parkinson's disease and for creating a Chemometrics hub - stats for all, within MIB. 
+  <section id="teaching">
+    <h2>Teaching resources</h2>
+    <div class="card">
+      <h3>Chemometrics in R</h3>
+      <p>Open material for learning chemometrics with R, shared on GitHub.</p>
+      <div class="btns"><a class="btn" href="https://github.com/trivedi-group/Chemometrics-in-R">Open the repository</a></div>
+    </div>
+  </section>
 
+  <section id="people">
+    <h2>People</h2>
+    <div class="card">
+      <h3>Dr Drupad Trivedi</h3>
+      <p>Drupad received his BSc (Hons) in Biomedical Sciences and his PhD in biomarker discovery using metabolomics from Middlesex University. He briefly trained as a postdoctoral fellow at the London School of Hygiene and Tropical Medicine, then worked at the University of Manchester with Prof Royston Goodacre and Prof Perdita Barran before starting independent research at the University of Manchester.</p>
+    </div>
+  </section>
 
-# About Drupad Trivedi
-
-He received my BSc (Hons) in Biomedical Sciences and my PhD in biomarker discovery using metabolomics from Middlesex Univeristy.  He briefly trained at The London School of Tropical Medicine at post doctoral fellow, then worked at The University of Manchester with Prof Royston Goodacre and Prof Perdita Barran before starting independent research at UoM.
-
-## Get in touch
-Twitter - @drupad_t
+  <section id="contact">
+    <h2>Get in touch</h2>
+    <p>Questions, collaboration enquiries and licence requests are welcome.</p>
+    <div class="btns">
+      <a class="btn" href="https://research.manchester.ac.uk/en/persons/drupad.trivedi/">University profile</a>
+      <a class="btn" href="https://www.linkedin.com/in/drupadtrivedi">LinkedIn</a>
+    </div>
+  </section>
+</main>
+<footer>&copy; 2026 Drupad Trivedi. All rights reserved.</footer>
+</body>
+</html>
