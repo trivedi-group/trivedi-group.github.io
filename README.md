@@ -1,4 +1,4 @@
-# Trivedi Group
+# Trivedi Research Group (TRG)
 
 Chemometrics in clinical metabolomics, and discovering the molecular targets that wearable sensors should detect, at the University of Manchester.
 
